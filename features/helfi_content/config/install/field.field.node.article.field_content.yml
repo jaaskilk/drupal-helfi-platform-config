@@ -27,13 +27,19 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      link: link
-      text: text
-      image: image
       columns: columns
-      list_of_links: list_of_links
+      image: image
+      text: text
+      link: link
       gallery: gallery
+      list_of_links: list_of_links
     target_bundles_drag_drop:
+      accordion:
+        weight: 12
+        enabled: false
+      accordion_item:
+        weight: 13
+        enabled: false
       columns:
         enabled: true
         weight: 3
@@ -41,7 +47,7 @@ settings:
         enabled: true
         weight: 4
       gallery_slide:
-        weight: 5
+        weight: 16
         enabled: false
       hero:
         weight: 0
